@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="projectForm" hidden>
+    <input type="text" id="projectName">
+    <button type="submit">Create</button>
+</form>
+<form id="todoForm" hidden>
+    <input type="text" id = "todoname">
+    <input type="date" id="tododate">
+      <select id="todoPriority">
+        <option value="Low">Low</option>
+        <option value="Medium">Medium</option>
+        <option value="High">High</option>
+    </select>
+
+    <button type="submit">
+        Add Todo
+    </button>
+</form>
+    <div class="shell">
+    <div class="header">
+        <h1 class="todo">TO DO LIST</h1>
+        <button id="addnew">+ADD NEW PROJECT</button>
+    </div>
+    <div class="footer">
+         <div id="projectList"></div>
+        <div class="todoSection">
+        <button id="addTodoBtn" hidden>Add Todo</button>
+        <div id="todolist"></div>
+    </div>
+    </div>
+    </div>
+    
+</body>
+</html>
